@@ -22,9 +22,9 @@
             Utente utente1 = new Utente(nome, cognome, email);
             
             // libri istanziati
-            Libro libro1 = new Libro("Il signore degli anelli" , 2002, "Claudio", "Bisio", "ISBN 544 5 55 44444 4", 212);
+            Libro libro1 = new Libro("Il signore degli anelli" , 2002, "Claudio", "Bisio", "544-5-55-44444-4", 212);
            // Console.WriteLine(libro1.ToString());
-            Libro libro2 = new Libro("Bibbia", 0000, "Antico", "Scrittore", "ISBN 544 5 55 44444 4", 1432);
+            Libro libro2 = new Libro("Bibbia", 0000, "Antico", "Scrittore", "544-5-55-44444-4", 1432);
             // Console.WriteLine(libro2.ToString());
 
 

@@ -32,15 +32,15 @@ namespace csharp_biblioteca
         internal void StampaDocumento()
         {
             Console.WriteLine("Lista articoli:");
+            Console.WriteLine();
             foreach (Documento documento in this.documenti)
             {
+                Console.WriteLine(documento.GetType().Name);
                 Console.WriteLine(documento.ToString());
             }
         }
-
         internal void StampaUtenti()
         {
-
             Console.WriteLine("--------------------");
             Console.WriteLine("Lista utenti:");
             foreach (Utente utente in this.nuoviUtenti)

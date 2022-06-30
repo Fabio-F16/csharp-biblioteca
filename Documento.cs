@@ -26,7 +26,7 @@ namespace csharp_biblioteca
 
         public override string ToString()
         {
-            return "\n" +  "\n" + "Titolo: " + this.Titolo + "\n" + "Nome autore: " + this.autoreNome + "\n" + "Cognome autore: " + this.autoreCognome + "\n" + "Anno " + this.Anno ;
+            return "\n" + "Titolo: " + this.Titolo + "\n" + "Nome autore: " + this.autoreNome + "\n" + "Cognome autore: " + this.autoreCognome + "\n" + "Anno: " + this.Anno ;
         }
 
     }
